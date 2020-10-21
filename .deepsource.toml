@@ -7,5 +7,5 @@ enabled = true
 
   [analyzers.meta]
   gradle_modules = [
-    { name = ":mainModule", source_sets = [ "main" ] }
+    { name = ":", source_sets = [ "main" ] }
   ]
