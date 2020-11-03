@@ -6,6 +6,4 @@ name = "java"
 enabled = true
 
   [analyzers.meta]
-  gradle_modules = [
-    { name = ":", source_sets = [ "main" ] }
-  ]
+  gradle_modules = [":"]
